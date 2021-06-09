@@ -1,0 +1,129 @@
+body{
+    margin: 0px;
+  }
+  .horizontal-divider {
+      width: 100% !important;
+      height: 1px;
+      background-color: grey;
+    }
+    
+  body{
+    background-color: darkgray;
+  }
+    #app-container{
+      position: relative;
+      width: 75%;
+      height: 85%;
+      left: 15%;
+      background-color: white;
+      padding-top: 35px;
+    }
+  
+    #heading{
+      text-align: center;
+      font-size: 2.5rem;
+      color: rgba(78, 69, 78, 0.849);
+      letter-spacing: 2px;
+      word-spacing: 4px;
+      font-weight: 600;
+      margin-bottom: 5px;
+    }
+  
+    #submission-form{
+      font-family: sans-serif;
+      font-weight: bolder;
+    }
+  
+    #submission-form input,select{
+      border-width: 0px;
+    }
+  
+    #submission-form label{
+      color: rgb(133, 129, 129);
+    }
+  
+    .sub-elem{
+      padding-left: 25px;
+      padding: 10px 25px;
+    }
+  
+    #cat,#dat{
+      display: inline-block;
+    }
+  
+    #cat{
+      margin-right: 30%;
+    }
+  
+    #dat{
+      border-left: grey solid 2px;
+      
+    }
+  
+    #category option{
+      font-family: sans-serif;
+      font-weight: bolder;
+    }
+  
+    #add-task-btn{
+      text-align: center;
+      margin: 20px 20px 20px 0px;
+    }
+    
+    button{
+      width: 200px;
+      height: 40px;
+      font-family: monospace;
+      letter-spacing: 1px;
+      font-size: 20px;
+      color: honeydew;
+      cursor: pointer;
+    }
+  
+    #add-task-btn button{
+      background-color: rgb(58, 57, 57);
+    }
+  
+    .checkbox,.category{
+      display: inline-block;
+    }
+  
+    .category{
+      padding: 8px;
+      font-family: sans-serif;
+      float: right;
+    }
+    
+  #personal{
+   background-color: darkblue;
+   color: white;
+  }
+  
+  #work{
+    background-color: darkviolet;
+    color: white;
+  }
+  
+  #school{
+    background-color: indigo;
+    color: white;
+  }
+  
+  #cleaning{
+    background-color: darkgreen;
+    color: white;
+  }
+  
+  #other{
+    background-color: aqua;
+    color: black;
+  }
+  
+  #del-task-btn button{
+  background-color: crimson;
+  margin: 20px 20px 20px 0px;
+  }
+  
+  #del-task-btn{
+    text-align: center;
+  }
