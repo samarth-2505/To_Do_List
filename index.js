@@ -7,7 +7,6 @@ const db=require('./config/mongoose');
 const Task=require('./models/task');
 
 
-
 //set up the view engine
 app.set('view engine', 'ejs');
 app.set('views', './views');
